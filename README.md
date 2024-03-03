@@ -1,6 +1,6 @@
 # Taller-1
 
-Integrantes: Daniel Felipe Cantor Santana, Giovanni Obregon, Thomas Hernandez Ochoa
+Integrantes: Daniel Felipe Cantor Santana, Giovanni Obregon, Thomas Hernandez Ochoa, Andres Felipe Zuleta Romero
 
 # 1. ¿Qué es un robot móvil? Definir qué es un robot y cuáles son sus principales características.
 
