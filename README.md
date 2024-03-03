@@ -100,6 +100,8 @@ El modelado puede apreciarse en la siguiente figura y su respectivo archivo se e
 
 Con el modelado del kobuki, se extrajo un código de coppeliaSIM:
 ![Imagen 2](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/Codigo_coppelia.png)
+De igual manera, el código generado se encuentra adjunto en este repositorio.
+
 
 
 # 10. Reflexión y Discusión: Sesión de reflexión donde los estudiantes comparten sus experiencias, aprendizajes y posibles mejoras en el uso del robot Kuboki en aplicaciones prácticas.
