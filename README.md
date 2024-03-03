@@ -1,13 +1,13 @@
 # Taller-1
 
-Daniel Felipe Cantor Santana, Giovanni Obregon, Thomas Hernandez Ochoa
+Integrantes: Daniel Felipe Cantor Santana, Giovanni Obregon, Thomas Hernandez Ochoa
 
 # 1. ¿Qué es un robot móvil? Definir qué es un robot y cuáles son sus principales características.
 
 Un robot capaz de moverse bajo su propio control, y sus principales características son:
-Es capaz de reconocer su entorno por medio de sensores
-Ser capaz de desplazarse independientemente sin necesidad de algún tipo de cable de energía
-Adaptado al medio en el que se mueve (terrestre, aéreo o acuático)
+- Es capaz de reconocer su entorno por medio de sensores
+- Ser capaz de desplazarse independientemente sin necesidad de algún tipo de cable de energía
+- Adaptado al medio en el que se mueve (terrestre, aéreo o acuático)
 
 
 # 2. Presentación de los Robots: Descripción detallada de los robots Kuboki y EV3, incluyendo sus características físicas y capacidades.
@@ -15,38 +15,36 @@ Adaptado al medio en el que se mueve (terrestre, aéreo o acuático)
 El robot posee un chasis cilíndrico soportados en cuatro llantas, dos llantas que dan tracción para generar el movimiento del mismo, ambas poseen alturas variables, adicional podemos encontrar otras 2 llantas, las cuales no generan tracción, más bien son 2 apoyos extras. 
 
 Posee sensores de:
-Sensor anti choque.
-Sensores de profundidad.
-Sensor para cambiar la altura de las llantas de tracción.
-Sensor de desnivel, con el objetivo de evitar caídas.
+- Sensor anti choque.
+- Sensores de profundidad.
+- Sensor para cambiar la altura de las llantas de tracción.
+- Sensor de desnivel, con el objetivo de evitar caídas.
 
 Posee las siguientes conexiones:
-Switch de encendido y apagado.
-Conector (jack) para carga.
-Power connectors (19V-2A,12V-5A, 12v-1.5A y 5v-1A)
-Puerto de extensión serial (entrada y salida digital/ entrada análoga).
-Puerto USB.
-Botones programables(B0,B1 y B2)
-Leds programables (LED, LED 2)
-Led de estado de carga(Status)
-Switch de descarga de firmware.
+- Switch de encendido y apagado.
+- Conector (jack) para carga.
+- Power connectors (19V-2A,12V-5A, 12v-1.5A y 5v-1A)
+- Puerto de extensión serial (entrada y salida digital/ entrada análoga).
+- Puerto USB.
+- Botones programables(B0,B1 y B2)
+- Leds programables (LED, LED 2)
+- Led de estado de carga(Status)
+- Switch de descarga de firmware.
 
 
 # 3. Estado actual del robot y sistema de control.
 Características físicas: 
-Cuenta con 5 bandejas para posicionar distintos dispositivos 
-Las 4 ruedas se encuentran en buen estado
-Tiene un conector de puertos USB en la bandeja superior
-Los 4 conectores aparentemente están en buen estado
-No posee computadora principal
-Trae su cable de carga
-Trae su cable para USB
-
-
+- Cuenta con 5 bandejas para posicionar distintos dispositivos 
+- Las 4 ruedas se encuentran en buen estado
+- Tiene un conector de puertos USB en la bandeja superior
+- Los 4 conectores aparentemente están en buen estado
+- No posee computadora principal
+- Trae su cable de carga
+- Trae su cable para USB
 
 Sistema de control
-No posee computadora principal.Debe implementarse una tarjeta de desarrollo (Jetson) o un PC 
-Debe controlarse con ROS
+- No posee computadora principal.Debe implementarse una tarjeta de desarrollo (Jetson) o un PC 
+- Debe controlarse con ROS
 
 
 
@@ -54,17 +52,17 @@ Debe controlarse con ROS
 # 4. APIs y lenguajes de programación: Identificar las APIs o librerías disponibles para programar los robots. Enumerar los lenguajes de programación compatibles con los robots.
 
 Los lenguajes compatibles con el robot kuboki son:
-Python
-C++
-C
+- Python
+- C++
+- C
 Preferiblemente, para llevar a cabo la programación del robot es necesario utilizar Linux.
 
 Las APIs compatibles con el robot kuboki son:
-ROS
-Gazebo 
+- ROS
+- Gazebo 
 Algunas librerías que compatibles son:
-OpenCV
-PCL
+- OpenCV
+- PCL
 
 # 5. Herramientas de desarrollo propias: Demostración de las herramientas de desarrollo propias de los robots, destacando su utilidad y funcionalidades. (Si es posible). Resumir las herramientas propias que disponen los robots para facilitar la programación y el control.
 
@@ -81,8 +79,8 @@ Sensor para cambiar la altura de las llantas de tracción: Dependiendo de la alt
 Sensor de desnivel: La función de este sensor es detectar que hay terreno bajo el robot para dar continuidad a los movimientos, en caso de que no detecte terreno, este frenará el robot para evitar posibles caídas.
 
 Tiene  compatibilidad con sensores:
-Ultrasónicos
-cámaras RGBD
+- Ultrasónicos
+- cámaras RGBD
 # 7. Práctica de identificación y uso de los sensores integrados en los robots, explicando cómo interactúan con el entorno.
 
 Sensor anti choque: Estos sensores son esenciales para ayudar al robot a evitar obstáculos, evitar daños a sí mismo o a su entorno, y realizar movimientos más seguros. La interacción de un sensor anti choque con el entorno puede variar según el diseño específico del robot y el tipo de sensor utilizado, pero en términos generales cuando el robot se mueve, el sensor constantemente monitorea su entorno en busca de obstáculos. Si detecta un objeto cercano, interpreta esto como una posible colisión.
@@ -100,7 +98,8 @@ El modelado puede apreciarse en la siguiente figura:
 
 # 9. Programa simple de movimientos: Utilizando las herramientas propias del robot, crear un programa sencillo que indique movimientos básicos del robot, como desplazarse hacia adelante, girar a la derecha, etc.
 
-Con el modelado del kobuki, se realizó el siguiente código, para una prueba básica de funcionamiento:
+Con el modelado del kobuki, se extrajo un código de coppeliaSIM:
+
 
 
 
