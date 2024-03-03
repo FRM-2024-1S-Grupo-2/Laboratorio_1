@@ -92,15 +92,14 @@ En este caso no se tiene claridad de qué tipo de sensor es, ya que existen tác
 
 # 8. Modelado del robot real: Realizar el modelado del robot Kuboki y EV3, en coopeliasim.
 
-El modelado puede apreciarse en la siguiente figura: 
-
+El modelado puede apreciarse en la siguiente figura y su respectivo archivo se encuentra adjunto en este repositorio. 
+![Imagen 1](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/CoppeliaSim.png)
 
 
 # 9. Programa simple de movimientos: Utilizando las herramientas propias del robot, crear un programa sencillo que indique movimientos básicos del robot, como desplazarse hacia adelante, girar a la derecha, etc.
 
 Con el modelado del kobuki, se extrajo un código de coppeliaSIM:
-
-
+![Imagen 2](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/Codigo_coppelia.png)
 
 
 # 10. Reflexión y Discusión: Sesión de reflexión donde los estudiantes comparten sus experiencias, aprendizajes y posibles mejoras en el uso del robot Kuboki en aplicaciones prácticas.
