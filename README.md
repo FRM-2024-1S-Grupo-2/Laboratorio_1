@@ -66,16 +66,16 @@ Existen 3 formas para generar una comunicación con el robot, mediante una aplic
 
 
 # 6. Sensores del robot Identificar los sensores incorporados en los robots y explicar su funcionamiento.
-Qué compatibilidad tienes con otros sensores.
-
 El robot posee los siguientes sensores:
-Sensor anti choque: Este es un sensor físico, el cual al sentir cierta presión de contacto contra un obstáculo, este se activa y manda una señal.
-
-Sensor de desnivel: La función de este sensor es detectar que hay terreno bajo el robot para dar continuidad a los movimientos, en caso de que no detecte terreno, este frenará el robot para evitar posibles caídas.
+Giroscopio: 3-Ejes Digital, Fabricante STMicroelectronics.
+Bumper (frontal, derecha, izquierda): Este sensor se activa cuando el robot entra en contacto con un obstaculo y manda una señal.
+Cliff Sensor (izquierda, centro, derecha): Este es un sensor de proximidad que detecta la distancia del robot al suelo en diferentes zonas.
+Wheel Drop Sensor: Este sensor detecta si las ruedas se encuentran desplegadas o contraidas.
 
 Tiene  compatibilidad con sensores:
 - Ultrasónicos
 - Cámaras RGBD
+- LiDAR
 # 7. Práctica de identificación y uso de los sensores integrados en los robots, explicando cómo interactúan con el entorno.
 
 Sensor anti choque: Estos sensores son esenciales para ayudar al robot a evitar obstáculos, evitar daños a sí mismo o a su entorno, y realizar movimientos más seguros. La interacción de un sensor anti choque con el entorno puede variar según el diseño específico del robot y el tipo de sensor utilizado, pero en términos generales cuando el robot se mueve, el sensor constantemente monitorea su entorno en busca de obstáculos. Si detecta un objeto cercano, interpreta esto como una posible colisión.
