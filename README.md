@@ -43,10 +43,10 @@ Características físicas:
 - Trae su cable de carga
 - Trae su cable para USB
 
-Sistema de control
+Sistemas de control
 - No posee computadora principal.Debe implementarse una tarjeta de desarrollo (Jetson) o un PC 
 - Puede controlarse con ROS o de manera serial
-- Existen APIs en C++ 
+- Existe una API en C++ 
 
 
 
@@ -62,7 +62,7 @@ Las APIs y paquetes compatibles con el robot kuboki son:
 - ROS: kobuki, TurtleBot2
 - C++ API (Doxygen)
 
-# 5. Herramientas de desarrollo propias: Demostración de las herramientas de desarrollo propias de los robots, destacando su utilidad y funcionalidades. (Si es posible). Resumir las herramientas propias que disponen los robots para facilitar la programación y el control.
+# 5. Herramientas de desarrollo propias
 
 Existen 3 formas para generar una comunicación con el robot, mediante una aplicación de C + + para linux, usando la plataforma TurtleBot2 o mediante ROS, siendo esta última la manera mas sencillas de uso, ya que cuenta con repositorio propio incluyendo paquetes de simulación: https://wiki.ros.org/kobuki 
 
