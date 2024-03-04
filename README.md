@@ -98,9 +98,9 @@ El modelado puede apreciarse en la siguiente figura y su respectivo archivo se e
 
 # 9. Programa simple de movimientos: Utilizando las herramientas propias del robot, crear un programa sencillo que indique movimientos básicos del robot, como desplazarse hacia adelante, girar a la derecha, etc.
 
-Con el modelado del kobuki, se extrajo un código de coppeliaSIM:
-![Imagen 2](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/Codigo_coppelia.png)
-De igual manera, el código generado se encuentra adjunto en este repositorio.
+Se encontró un código que describe una trayectoria cuadrada del kuboki, sin embargo, realizamos una ligera modificación para que se describiera una trayectoria lineal. Como se ve a continuación:
+![Imagen 2](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/Función%20de%20trayectoria.png)
+El archivo conjunto se encuentra en este mismo repositorio.
 
 
 
