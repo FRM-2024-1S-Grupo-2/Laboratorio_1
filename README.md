@@ -98,11 +98,10 @@ El modelado puede apreciarse en la siguiente figura y su respectivo archivo se e
 
 # 9. Programa simple de movimientos: Utilizando las herramientas propias del robot, crear un programa sencillo que indique movimientos básicos del robot, como desplazarse hacia adelante, girar a la derecha, etc.
 
-Se encontró un código que describe una trayectoria cuadrada del kuboki, sin embargo, realizamos una ligera modificación para que se describiera una trayectoria lineal. Como se ve a continuación:
+Se encontró un código que describe una trayectoria cuadrada del kuboki, sin embargo, realizamos una ligera modificación para que se describiera una trayectoria lineal (El archivo completo se encuentra en este mismo repositorio). Como se ve a continuación:
 ![Imagen 2](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/Función%20de%20trayectoria.png)
-El archivo conjunto se encuentra en este mismo repositorio.
 
-
+Se modificó el límite "eclp" del *if*  para generar un giro de 180 grados del robot (pi) y que el robot describa una trayectoria lineal.
 
 # 10. Reflexión y Discusión: Sesión de reflexión donde los estudiantes comparten sus experiencias, aprendizajes y posibles mejoras en el uso del robot Kuboki en aplicaciones prácticas.
 
