@@ -75,10 +75,6 @@ Qué compatibilidad tienes con otros sensores.
 El robot posee los siguientes sensores:
 Sensor anti choque: Este es un sensor físico, el cual al sentir cierta presión de contacto contra un obstáculo, este se activa y manda una señal.
 
-Sensores de profundidad: Estos son infrarrojos, emite una luz infrarroja la cual rebota con los obstáculos y detecta el rebote de la luz.  
-
-Sensor para cambiar la altura de las llantas de tracción: Dependiendo de la altura que se defina para las llantas, o si el robot necesita variar dicha altura para sobrepasar un obstáculo, este sensor será el encargado de detectar si es necesario o no llevar a cabo alguna modificación.
-
 Sensor de desnivel: La función de este sensor es detectar que hay terreno bajo el robot para dar continuidad a los movimientos, en caso de que no detecte terreno, este frenará el robot para evitar posibles caídas.
 
 Tiene  compatibilidad con sensores:
