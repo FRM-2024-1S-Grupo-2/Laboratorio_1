@@ -45,7 +45,8 @@ Características físicas:
 
 Sistema de control
 - No posee computadora principal.Debe implementarse una tarjeta de desarrollo (Jetson) o un PC 
-- Debe controlarse con ROS
+- Puede controlarse con ROS o de manera serial
+- Existen APIs en C++ 
 
 
 
