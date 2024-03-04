@@ -101,3 +101,7 @@ Se modificó el límite "eclp" del *if*  para generar un giro de 180 grados del 
 # 10. Reflexión y Discusión: Sesión de reflexión donde los estudiantes comparten sus experiencias, aprendizajes y posibles mejoras en el uso del robot Kuboki en aplicaciones prácticas.
 
 El robot Kuboki posee diversos usos, desde el educativo, hasta aplicaciones médicas y de asistencia. Posee una interfaz física intuitiva, con varias formas de conexión y programación.
+
+Para el equipo de trabajo, resultó ser desafiante el hecho de crear una rutina para el robot sin usar ROS, dado que este programa se tuvo que realizar en lenguaje C++, tratandose de un lenguaje de alto nivel.
+
+Tener un modelado mas complejo de la geometría del robot hace que coppelia sim se perciba un poco mas lento, hay ciertas pruebas que es mejor realizarlas con la geometría simplificada.
