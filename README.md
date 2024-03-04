@@ -55,7 +55,7 @@ Sistema de control
 Los lenguajes compatibles con el robot kuboki son:
 - C++
 - Python
-- Java u otros (Usando el protocolo de comunicación serial
+- Java u otros (Usando el protocolo de comunicación serial)
 
 Las APIs y paquetes compatibles con el robot kuboki son:
 - ROS: kobuki, TurtleBot2
