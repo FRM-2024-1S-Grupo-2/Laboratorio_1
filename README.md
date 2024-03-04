@@ -1,6 +1,6 @@
 # Taller-1
 
-Integrantes: Daniel Felipe Cantor Santana, Giovanni Obregon, Thomas Hernandez Ochoa, Andres Felipe Zuleta Romero
+Integrantes: Daniel Felipe Cantor Santana, Giovanni Obregon, Thomas Hernandez Ochoa, Andres Felipe Zuleta Romero.
 
 # 1. ¿Qué es un robot móvil? Definir qué es un robot y cuáles son sus principales características.
 
@@ -16,9 +16,10 @@ Un robot capaz de moverse bajo su propio control, y sus principales característ
 El robot posee un chasis cilíndrico soportados en cuatro llantas, dos llantas que dan tracción para generar el movimiento del mismo, ambas poseen alturas variables, adicional podemos encontrar otras 2 llantas, las cuales no generan tracción, más bien son 2 apoyos extras. 
 
 Posee sensores de:
-- Sensor anti choque.
-- Sensores de profundidad.
-- Sensor de desnivel, con el objetivo de evitar caídas.
+- Giroscopio: 3-Ejes Digital, Fabricante STMicroelectronics.
+- Bumper (frontal, derecha, izquierda): Este sensor se activa cuando el robot entra en contacto con un obstaculo y manda una señal.
+- Cliff Sensor (izquierda, centro, derecha): Este es un sensor de proximidad que detecta la distancia del robot al suelo en diferentes zonas.
+- Wheel Drop Sensor: Este sensor detecta si las ruedas se encuentran desplegadas o contraidas.
 
 Posee las siguientes conexiones:
 - Switch de encendido y apagado.
