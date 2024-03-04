@@ -8,6 +8,7 @@ Un robot capaz de moverse bajo su propio control, y sus principales característ
 - Es capaz de reconocer su entorno por medio de sensores
 - Ser capaz de desplazarse independientemente sin necesidad de algún tipo de cable de energía
 - Adaptado al medio en el que se mueve (terrestre, aéreo o acuático)
+- Posee cierto grado de autonomía, es capaz de operar sin un control humano constante.
 
 
 # 2. Presentación de los Robots: Descripción detallada de los robots Kuboki y EV3, incluyendo sus características físicas y capacidades.
