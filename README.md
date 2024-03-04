@@ -18,7 +18,6 @@ El robot posee un chasis cilíndrico soportados en cuatro llantas, dos llantas q
 Posee sensores de:
 - Sensor anti choque.
 - Sensores de profundidad.
-- Sensor para cambiar la altura de las llantas de tracción.
 - Sensor de desnivel, con el objetivo de evitar caídas.
 
 Posee las siguientes conexiones:
