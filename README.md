@@ -52,17 +52,13 @@ Sistema de control
 # 4. APIs y lenguajes de programación: Identificar las APIs o librerías disponibles para programar los robots. Enumerar los lenguajes de programación compatibles con los robots.
 
 Los lenguajes compatibles con el robot kuboki son:
-- Python
 - C++
-- C
-Preferiblemente, para llevar a cabo la programación del robot es necesario utilizar Linux.
+- Python
+- Java u otros (Usando el protocolo de comunicación serial
 
-Las APIs compatibles con el robot kuboki son:
-- ROS
-- Gazebo 
-Algunas librerías que compatibles son:
-- OpenCV
-- PCL
+Las APIs y paquetes compatibles con el robot kuboki son:
+- ROS: kobuki, TurtleBot2
+- C++ API (Doxygen)
 
 # 5. Herramientas de desarrollo propias: Demostración de las herramientas de desarrollo propias de los robots, destacando su utilidad y funcionalidades. (Si es posible). Resumir las herramientas propias que disponen los robots para facilitar la programación y el control.
 
