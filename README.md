@@ -1,4 +1,4 @@
-# Taller-1
+# Laboratorio 1 - Fundamentos y simulaciones Kobuki y Lego EV3 
 
 Integrantes: Daniel Felipe Cantor Santana, Giovanni Obregon, Thomas Hernandez Ochoa, Andres Felipe Zuleta Romero.
 
