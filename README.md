@@ -160,12 +160,16 @@ Dicho experimento se realizó con el siguiente código:
 
 Se puede ver los demas sensores usados en [Laboratorio de sensores](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio-Sensores/tree/main)
 # 8. Modelado del robot real: Realizar el modelado del robot Kuboki y EV3, en coopeliasim.
-
+##Kobuki
 El modelado puede apreciarse en la siguiente figura y su respectivo archivo se encuentra adjunto en este repositorio. 
 ![Imagen 1](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/CoppeliaSim.png)
+##Lego EV3
+El modelado puede apreciarse en la siguiente figura, este modelo fue estraido de [Git EV3](https://github.com/albmardom/EV-R3P). 
+![image](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio_1/assets/82681128/37e3557f-fb94-4ffa-91db-9e5b9fa1c659)
 
 
 # 9. Programa simple de movimientos: Utilizando las herramientas propias del robot, crear un programa sencillo que indique movimientos básicos del robot, como desplazarse hacia adelante, girar a la derecha, etc.
+## Kobuki
 La primera prueba realizada, fue implementando un programa pre definido que se encuentra instalado en el robot, acá puede verse su funcionamiento:
 
 [![Alt text](https://img.youtube.com/vi/ZMaNHp1PxMU/0.jpg)](https://www.youtube.com/watch?v=ZMaNHp1PxMU)
@@ -175,6 +179,11 @@ Además,se encontró un código que describe una trayectoria cuadrada del kuboki
 ![Imagen 2](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/Función%20de%20trayectoria.png)
 
 Se modificó el límite "eclp" del *if*  para generar un giro de 180 grados del robot (pi) y que el robot describa una trayectoria lineal.
+## Lego Ev3
+# Video de Demostración
+
+[![Ver en YouTube](![image](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio_1/assets/82681128/ed915548-ef1f-49bc-8e13-df8299f7e6fd)
+)](https://www.youtube.com/watch?v=jtdHT5IY994)
 
 # 10. Reflexión y Discusión: Sesión de reflexión donde los estudiantes comparten sus experiencias, aprendizajes y posibles mejoras en el uso del robot Kuboki en aplicaciones prácticas.
 
