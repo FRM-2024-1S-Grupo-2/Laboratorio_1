@@ -160,10 +160,10 @@ Dicho experimento se realizó con el siguiente código:
 
 Se puede ver los demas sensores usados en [Laboratorio de sensores](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio-Sensores/tree/main)
 # 8. Modelado del robot real: Realizar el modelado del robot Kuboki y EV3, en coopeliasim.
-##Kobuki
+## Kobuki
 El modelado puede apreciarse en la siguiente figura y su respectivo archivo se encuentra adjunto en este repositorio. 
 ![Imagen 1](https://github.com/FRM-2024-1S-Grupo-2/Taller-1/blob/main/imagenes/CoppeliaSim.png)
-##Lego EV3
+## Lego EV3
 El modelado puede apreciarse en la siguiente figura, este modelo fue estraido de [Git EV3](https://github.com/albmardom/EV-R3P). 
 ![image](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio_1/assets/82681128/37e3557f-fb94-4ffa-91db-9e5b9fa1c659)
 
