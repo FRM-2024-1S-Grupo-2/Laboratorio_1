@@ -12,7 +12,7 @@ Un robot capaz de moverse bajo su propio control, y sus principales característ
 
 
 # 2. Presentación de los Robots: Descripción detallada de los robots Kuboki y EV3, incluyendo sus características físicas y capacidades.
-
+## Kobuki
 El robot posee un chasis cilíndrico soportados en cuatro llantas, dos llantas que dan tracción para generar el movimiento del mismo, ambas poseen alturas variables, adicional podemos encontrar otras 2 llantas, las cuales no generan tracción, más bien son 2 apoyos extras. 
 
 Posee sensores de:
@@ -31,9 +31,29 @@ Posee las siguientes conexiones:
 - Leds programables (LED, LED 2)
 - Led de estado de carga(Status)
 - Switch de descarga de firmware.
+## Lego EV3
+El robot EV3, desarrollado por LEGO como parte de su serie Mindstorms, es una plataforma educativa y de investigación que combina componentes de hardware y software para enseñar robótica y programación. A continuación, se presenta una descripción detallada de sus características físicas y capacidades.
 
+Componentes Principales:
+
+- Bloque Inteligente EV3: Es el cerebro del robot. Este bloque cuenta con un microprocesador ARM9, una pantalla monocromática, botones de navegación y control, un altavoz, y una ranura para tarjetas microSD que permite ampliar su memoria. Tiene puertos para conectar motores y sensores.
+- Motores: Viene con tres motores, dos grandes y uno mediano. Los motores grandes proporcionan más torque, adecuados para movimientos principales como la locomoción del robot, mientras que el motor mediano es ideal para tareas que requieren mayor velocidad y precisión.
+
+Sensores:
+- Sensor de Ultrasonidos: Utiliza ondas sonoras para medir la distancia a objetos, permitiendo al robot detectar obstáculos y medir distancias.
+- Sensor de Luz: Puede detectar colores y la intensidad de la luz, útil para seguir líneas en el suelo.
+- Sensor de Toque: Detecta cuándo se presiona o se libera, útil para detectar colisiones o acciones de presión.
+- Sensor Giroscópico: Mide la velocidad de rotación y cambios en la orientación del robot, ayudando en la estabilización y el control preciso del movimiento.
+- Sensor de Color: Reconoce hasta siete colores distintos y también puede medir la intensidad de la luz reflejada.
+
+Conectividad y Expansión:
+
+- Puertos de Entrada y Salida: Cuatro puertos de entrada para sensores y cuatro puertos de salida para motores.
+- Conectividad Inalámbrica: Compatible con Bluetooth y Wi-Fi (mediante un adaptador USB), permitiendo la comunicación y control remoto del robot.
+- Conexión USB: Permite la transferencia de datos y programación desde una computadora.
 
 # 3. Estado actual del robot y sistema de control.
+## Kobuki
 Características físicas: 
 - Cuenta con 5 bandejas para posicionar distintos dispositivos 
 - Las 4 ruedas se encuentran en buen estado
@@ -48,11 +68,20 @@ Sistemas de control
 - Puede controlarse con ROS o de manera serial
 - Existe una API en C++ 
 
+## Lego EV3
+Características Físicas
+- Las 2 ruedas se encuentran en buen estado
+- Tiene un conector de puertos USB en la parte lateral
+- Tiene un conector MicroSD en la parte lateral
+- Posee computadora principal
+- No trae su cable de carga
 
-
+Sistemas de control
+- Puede controlarse con ROS a travez de comunicacion MQTT
+- Existe unprograma nativo MINDSTORMS EV3
 
 # 4. APIs y lenguajes de programación: Identificar las APIs o librerías disponibles para programar los robots. Enumerar los lenguajes de programación compatibles con los robots.
-
+## Kobuki
 Los lenguajes compatibles con el robot kuboki son:
 - C++
 - Python
@@ -61,11 +90,24 @@ Los lenguajes compatibles con el robot kuboki son:
 Las APIs y paquetes compatibles con el robot kuboki son:
 - ROS: kobuki, TurtleBot2
 - C++ API (Doxygen)
+## Lego EV3
+Las APIs y paquetes compatibles con el robot kuboki son:
+-ROS:MQTT
+-MINDSTORMS EV3
+Los lenguajes compatibles con el robot kuboki son:
+- Matlab
+- Python
+- EV3-G
 
 # 5. Herramientas de desarrollo propias
-
+## Kobuki
 Existen 3 formas para generar una comunicación con el robot, mediante una aplicación de C + + para linux, usando la plataforma TurtleBot2 o mediante ROS, siendo esta última la manera mas sencillas de uso, ya que cuenta con repositorio propio incluyendo paquetes de simulación: https://wiki.ros.org/kobuki 
+## Lego EV3
+El LEGO MINDSTORMS EV3 ofrece varias herramientas de desarrollo propias que facilitan la programación y el control del robot, adaptándose a diferentes niveles de experiencia. Las principales herramientas incluyen EV3 Software (EV3-G), un entorno de programación gráfico basado en LabVIEW ideal para principiantes, y EV3 Classroom, una plataforma educativa basada en Scratch que es excelente para uso en aulas de educación primaria y secundaria
 
+[![LEGO MINDSTORMS EV3 Videos](https://img.youtube.com/vi/o5jPKdwpMcg/0.jpg)](https://www.youtube.com/watch?v=o5jPKdwpMcg&list=PLUDkntwKJbAqtGePuVtnEDt91QTcGdjf3&index=1)
+
+[Ver Lista de Reproducción en YouTube](https://www.youtube.com/watch?v=o5jPKdwpMcg&list=PLUDkntwKJbAqtGePuVtnEDt91QTcGdjf3&index=1)
 
 # 6. Sensores del robot Identificar los sensores incorporados en los robots y explicar su funcionamiento.
 El robot posee los siguientes sensores:
