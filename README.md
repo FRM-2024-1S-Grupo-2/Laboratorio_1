@@ -110,6 +110,7 @@ El LEGO MINDSTORMS EV3 ofrece varias herramientas de desarrollo propias que faci
 [Ver Lista de Reproducción en YouTube](https://www.youtube.com/watch?v=o5jPKdwpMcg&list=PLUDkntwKJbAqtGePuVtnEDt91QTcGdjf3&index=1)
 
 # 6. Sensores del robot Identificar los sensores incorporados en los robots y explicar su funcionamiento.
+#Kobuki
 El robot posee los siguientes sensores:
 Giroscopio: 3-Ejes Digital, Fabricante STMicroelectronics.
 Bumper (frontal, derecha, izquierda): Este sensor se activa cuando el robot entra en contacto con un obstaculo y manda una señal.
@@ -120,15 +121,44 @@ Tiene  compatibilidad con sensores:
 - Ultrasónicos
 - Cámaras RGBD
 - LiDAR
-# 7. Práctica de identificación y uso de los sensores integrados en los robots, explicando cómo interactúan con el entorno.
+#Lego Eve3
+## Sensor de Ultrasonidos
+Funcionamiento: Emite ondas sonoras de alta frecuencia que rebotan en los objetos y regresan al sensor. Mide el tiempo de retorno para calcular la distancia al objeto.
+Rango: 3 cm a 250 cm.
+Aplicaciones: Detección de obstáculos, medición de distancias y proximidad.
+Modos: Distancia continua y detección de presencia.
 
+## Sensor Infrarrojo
+Funcionamiento: Emite una señal infrarroja y mide la intensidad de la señal reflejada para determinar la distancia a los objetos.
+Rango: 0 a 70 cm.
+Aplicaciones: Seguimiento de una baliza infrarroja, control remoto del robot y detección de proximidad.
+Modos: Proximidad, señal de baliza y receptor de comandos
+
+Tiene  compatibilidad con sensores:
+- Sensor Infrarrojo
+- Sensor de Color
+- Sensor de Toque
+- Sensor Giroscópico
+
+# 7. Práctica de identificación y uso de los sensores integrados en los robots, explicando cómo interactúan con el entorno.
+## Kobuki
 Sensor anti choque: Estos sensores son esenciales para ayudar al robot a evitar obstáculos, evitar daños a sí mismo o a su entorno, y realizar movimientos más seguros. La interacción de un sensor anti choque con el entorno puede variar según el diseño específico del robot y el tipo de sensor utilizado, pero en términos generales cuando el robot se mueve, el sensor constantemente monitorea su entorno en busca de obstáculos. Si detecta un objeto cercano, interpreta esto como una posible colisión.
 
 Sensor de profundidad o detección de bordes: Estos sensores están diseñados para identificar cambios en la superficie, como el borde de una mesa o una plataforma elevada, y alertar al robot para que tome medidas para evitar caerse.
 En este caso no se tiene claridad de qué tipo de sensor es, ya que existen táctiles, infrarrojos y de ultra sonido, los sensores infrarrojos por ejemplo emiten luz infrarroja y miden la cantidad de luz reflejada. Cuando el sensor detecta un cambio abrupto en la cantidad de luz reflejada, interpreta que está cerca de un borde y activa medidas de precaución.
 
+### Ultrasonido EV3
+Para la toma de medidas del sensor de ultrasonido del EV3, se siguieron las instrucciones dadas en la guia del laboratorio con 2 particularidades, debido al guardaescobas de la habitación el sensor de ultrasonido del EV3 tomó como distancia inicial 4mm, sin embargo con el fin de reducir la incertidumbre, adicional a la cinta métrica se marcó con cinta los 100cm, como puede verse en las siguientes fotos:
 
+<img src="https://github.com/FRM-2024-1S-Grupo-2/Laboratorio-Sensores/blob/main/Imagenes/Ultrasonido_EV3.jpg" alt="Ultrasonido_EV3" width="400"> <img src="https://github.com/FRM-2024-1S-Grupo-2/Laboratorio-Sensores/blob/main/Imagenes/Cinta_Ev3.jpg" alt="Cinta_Ev3" width="400">
 
+![image](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio-Sensores/blob/main/Imagenes/Distancia_4mm.jpg)
+
+Dicho experimento se realizó con el siguiente código:
+
+![image](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio-Sensores/blob/main/Imagenes/Codigo_ultrasonido.png)
+
+Se puede ver los demas sensores usados en [Laboratorio de sensores](https://github.com/FRM-2024-1S-Grupo-2/Laboratorio-Sensores/tree/main)
 # 8. Modelado del robot real: Realizar el modelado del robot Kuboki y EV3, en coopeliasim.
 
 El modelado puede apreciarse en la siguiente figura y su respectivo archivo se encuentra adjunto en este repositorio. 
